@@ -1,5 +1,8 @@
+package ec.jolube.ejercicio.code.review.java;
+
 /**
- * Clase que representa una calculadora con las 4 operaciones básicas de dos números
+ * Clase que representa una calculadora con las 4 operaciones básicas de dos
+ * números
  */
 public class Calculadora {
 
@@ -24,6 +27,8 @@ public class Calculadora {
         return resul;
     }
 
+    // se debe validar que el divisor no sea 0 
+    //ya que no existe la división para 0
     public double divi(int num1, int num2) {
         //metodo para la division
         //double es para un valor con punto decimal
@@ -31,6 +36,5 @@ public class Calculadora {
         resul = num1 / num2;
         return resul;
     }
-
 
 }
